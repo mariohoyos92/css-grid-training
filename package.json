@@ -1,0 +1,14 @@
+{
+  "name": "CSSGridWesBos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "<mariohoyos92@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.23.6"
+  },
+  "scripts": {
+    "start":
+      "browser-sync start --server --files '**/*.css, **/*.html, **/*.js' --directory --port 7777 --browser 'FirefoxDeveloperEdition'"
+  }
+}
